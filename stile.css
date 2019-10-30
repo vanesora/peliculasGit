@@ -1,0 +1,94 @@
+img{
+    width: 250px;
+    height: 360px;
+    margin: 30px;
+    padding: 8px;
+    border: 2px solid black;
+    filter: grayscale(80%)
+}
+
+img:hover{
+    filter: grayscale(0%)
+}
+
+.center-img{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(194, 13, 13);
+    
+}
+
+button{
+    padding: 5px;
+    margin: 10px 65px 10px 65px;
+    height: 50px;
+    width: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black; 
+    color: white;
+    border-radius: 5px;
+}
+
+button:active{
+    border-bottom: 0px solid black;
+    border-right: 0px solid black; 
+}
+
+.button-movie1{
+    background-color:  rgb(99, 0, 0);
+}
+
+.button-movie2{
+    background-color:  rgb(85, 46, 2);
+}
+
+.button-movie3{
+    background-color:  rgb(40, 54, 1);
+}
+
+.button-movie4{
+    background-color:  rgb(1, 78, 53);
+}
+
+.button-movie5{
+    background-color:  rgb(1, 9, 49);
+}
+
+.button-movie6{
+    background-color:  rgb(54, 0, 43);
+}
+
+button:hover{
+   color: black;
+}
+
+.button-movie1:hover{
+    background-color:  rgb(194, 92, 92);
+}
+
+.button-movie2:hover{
+    background-color:  rgb(163, 123, 76);
+}
+
+.button-movie3:hover{
+    background-color:  rgb(125, 146, 66);
+}
+
+.button-movie4:hover{
+    background-color:  rgb(91, 153, 133);
+}
+
+.button-movie5:hover{
+    background-color:  rgb(42, 52, 105);
+}
+
+.button-movie6:hover{
+    background-color:  rgb(124, 61, 112);
+}
